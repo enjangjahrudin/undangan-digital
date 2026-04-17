@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 8. Share WhatsApp
   const btnShare = document.getElementById('btn-share-wa');
   btnShare.addEventListener('click', () => {
-    const text = `Assalamu'alaikum Warahmatullahi Wabarakatuh.\n\nTanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara Walimatul Safar (Haji) & Khitan kami. Detail acara dapat dilihat pada tautan berikut:\n\n${window.location.href}\n\nTerima kasih atas doa dan kehadirannya.\nWassalamu'alaikum Warahmatullahi Wabarakatuh.`;
+    const text = `Assalamu'alaikum Warahmatullahi Wabarakatuh.\n\nTanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara Walimatul Safar (Haji) & Khitanan Putra Kami. Detail acara dapat dilihat pada tautan berikut:\n\n${window.location.href}\n\nTerima kasih atas doa dan kehadirannya.\nWassalamu'alaikum Warahmatullahi Wabarakatuh.`;
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
   });
