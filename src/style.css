@@ -140,6 +140,24 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+.main-names {
+  margin-bottom: var(--spacing-lg);
+}
+
+.traveler-name-main, .child-name-main {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--color-accent);
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.child-name-main {
+  font-size: 1.25rem;
+  color: var(--color-accent-light);
+  font-weight: 400;
+}
+
 .guest-info {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
